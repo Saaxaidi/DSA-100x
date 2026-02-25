@@ -3,9 +3,25 @@ Loops ->
 when we want to repeat an action again again to a certain contion then we will use loop
 
 There are 3 types of loop 
-1. for loop
-2. while loop
-3. do while loop
+1. for loop ->
+syntax ->
+    for(initialisaton ;conditon ;update){
+    //code
+    }
+2. while loop -> 
+syntax ->
+    intialisation
+    while(condition){
+    code
+    update
+    }
+3. do while loop ->
+syntax ->
+    intialisation
+    do{
+    code
+    update
+    }while(condition)
 */
 
 #include <iostream>
