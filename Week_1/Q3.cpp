@@ -6,6 +6,6 @@ int main(){
     int l;
     int b;
     cin>>l>>b;
-    cout<< "area = "<< l*b << endl;
-    cout<< "perimeter = "<< 2*(l+b) << endl;
+    cout<< "Area = "<< l*b << endl;
+    cout<< "Perimeter = "<< 2*(l+b) << endl;
 }

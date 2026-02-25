@@ -3,18 +3,15 @@
 using namespace std;
 
 int main(){
-    int a;
-    int b;
+    int a, b;
+    cin >> a >> b;
 
-    cin>> a>>b;
-    if(a>b){
-        cout<< "A is a maximum value i.e.: "<<a<<endl;
-    }else{
-        cout<< "B is the maximum value i.e.:"<<b<<endl;
+    if(a < b){
+        cout << "Min = " << a << endl;
+        cout << "Max = " << b << endl;
+    } else {
+        cout << "Min = " << b << endl;
+        cout << "Max = " << a << endl;
     }
-    if(a<b){
-        cout<< "A is a minimum value i.e.: "<<a<<endl;
-    }else{
-        cout<< "B is the minimum value i.e.:"<<b<<endl;
-    }
+
 }

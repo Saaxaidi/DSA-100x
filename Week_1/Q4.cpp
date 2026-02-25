@@ -6,8 +6,8 @@ int main(){
     int marks;
     cin>> marks;
     if(marks>=35){
-        cout<< "Student is pass"<<endl;
+        cout<<"Pass"<<endl;
     }else{
-        cout<< "Student is fail"<<endl;
+        cout<<"Fail"<<endl;
     }
 }
