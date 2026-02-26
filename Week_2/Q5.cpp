@@ -18,6 +18,7 @@ int main(){
     
     if(n==0){
         cout<<0;
+        return 0;
     }
     while(n!=0){
         cout<<n%10;
